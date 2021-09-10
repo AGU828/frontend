@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first</title>
+</head>
+
+<body>
+
+    <!-- 1.區塊元素：顯示佔滿整行寬度。
+           h1~h6, p, ul, ol, li, div
+         2.行內元素：顯示依據文字寬度
+           a, img, sup, sub, b, big, strong, i, small, del, mark, em, s, ins, span
+   -->
+
+    <h1>標題1</h1>
+    <h2>標題2</h2>
+    <h3>標題3</h3>
+    <h4>標題4</h4>
+    <h5>標題5</h5>
+    <h6>標題6</h6>
+    <p>123</p>
+
+    <!--假文字套件-->
+    <!--"ctlorem"-->
+
+
+    <p>你好啦</p><br>
+    <P>我很好啦</P><br>
+    <p>再啦幹</p><br>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ducimus dolorem delectus unde, sequi culpa non
+        laboriosam animi nulla maiores. Sed cupiditate modi accusantium hic ipsa, nemo nobis officiis deleniti.</p>
+    <p>风人种批安民失肯儿似间伴犯体夏著那。巨何通降探或交它劳铁及？</p>
+    <p>說是金幣左右部門建設手上數字你怎麼常見職位，全市的確在這的是命令十分房子歌曲慢慢點評德國沒有什麼告。</p>
+
+
+
+
+    <!--清單項目-->
+    <!-- ul>li{選項$*6}-->
+    <!--type=disc/circle/square-->
+    <ul type="circle">
+        <li>選項1</li>
+        <li>選項2</li>
+        <li>選項3</li>
+        <li>選項4</li>
+        <li>選項5</li>
+    </ul>
+
+    <!-- ol>li{選項$}*6-->
+    <!--type=1/A/a/I/i-->
+    <ol type="1" start=6>
+        <li><a href="001.html">選項1</a></li>
+        <li>選項2</li>
+        <li>選項3</li>
+        <li>選項4</li>
+        <li>選項5</li>
+        <li>選項6</li>
+    </ol>
+
+    <div>123</div>
+
+    <!--a標籤用途：加入連結-->
+    <a href="001.html">001</a><br>
+    <a href="002.html">002</a><br>
+    <a href="003.html">003</a><br>
+    <a href="https://www.google.com/" target="_blank" title="谷哥大神">google</a><br>
+    <hr>
+
+    <img src="https://image.cache.u-car.com.tw/articleimage_796050.jpg" alt="Accord">
+
+
+    <br>
+
+    <img src="images/pic1.jpg
+" alt="Accord" width="500px" height="300px">
+    <br>
+
+    <!--假圖片資源-->
+    <img src='http://fakeimg.pl/300x200/#FF0000,128?text=Text&font=lobster' alt='' />
+    <br>
+    <!--上標字 superscript-->
+    x<sup>2<br>
+        <!--下標字 subscript-->
+        H<sub>2</sub>O<br>
+
+        <!-- 粗體字 -->
+        <b>粗體字 b</b><br>
+        <big>粗體字 big</big><br>
+        <strong>粗體字 strong</strong><br>
+
+        <!--斜體字 i -->
+        <i>斜體字i</i><br>
+        <!--小字 small-->
+        <small>小字</small><br>
+        <!--刪除線 del-->
+        <del>刪除線</del><br>
+        <mark>標記</mark><br>
+        <em>強調</em><br>
+        <u>底線</u><br>
+        <ins>插入</ins><br>
+        <span>假標籤</span><br>
+        <hr>
+        <!--表格-->
+        <table border="1">
+            <tr align="center">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr align="center">
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+
+            </tr>
+            <tr align="center">
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+
+            </tr>
+            <tr align="center">
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+        </table><br>
+        <!--表格製作另一種方法-->
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>欄位1</td>
+                    <td>欄位2</td>
+                    <td>欄位3</td>
+                    <td>欄位4</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr align="center">
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr align="center">
+                    <td>註1</td>
+                    <td>註2</td>
+                    <td>註3</td>
+                    <td>註4</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <form action="http://localhsot/remote.php " method="POST">
+            <h1 align="center">請輸入會員資料</h1>
+            <p align="center">姓名: <input type="text" name="user"> </p>
+            <p align="center">地址: <input type="text" name="addr"> </p>
+            <p align="center"> <input type="submit" value="確認"> <input type="reset" value="重置"></p>
+
+        </form>
+</body>
+
+
+
+</html>
